@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-image: url(image/concrete_seamless.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* ************************************************************************* NAVBAR ***************************************************************************** */
+.head {
+    border-bottom: 1px #4AAAA5 solid;
+    text-align: center;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    height: vh;
+}
+
+.container {
+    width: 970px;
+    margin: auto;
+    height: 90px;
+    position: relative;
+
+}
+
+.logo {
+    float: left;
+    background-color: #999999;
+}
+
+.logo a {
+    height: 100%;
+    position: absolute;
+    font-size: 30px;
+    background-color: #4AAAA5;
+    padding: 30px;
+    color: white;
+    font-weight: 800;
+}
+
+.nav {
+    top: 38%;
+    position: absolute;
+    right: 0;
+}
+
+.list_component {
+
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.nav li a {
+    color: #999999;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav li:nth-child(1) {
+    border-right: 1px solid #999999;
+    height: 20px;
+}
+
+.nav li:nth-child(2) {
+    border-right: 1px solid #999999;
+    height: 20px;
+}
+
+/* ************************************************************************* ABOUT ***************************************************************************** */
+main {
+    width: 970px;
+    margin: auto;
+    height: 70vh;
+    padding-top: 120px;
+}
+
+.about_me {
+    float: left;
+    width: 65%;
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: white;
+}
+
+.contact_with_me {
+    float: right;
+    width: 30%;
+    border: 1px solid #ddd;
+
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.about_me h1 {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #999999;
+    color: #4AAAA5;
+    font-size: 30px;
+    font-weight: 900;
+
+}
+
+#cat_img {
+    width: 200px;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+}
+
+.first_text {
+    margin-top: 20px;
+    float: right;
+    width: 350px;
+    padding-left: 10px;
+    color: #777;
+    line-height: 30px;
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+
+.second_text {
+    padding-top: 30px;
+    line-height: 30px;
+    font-size: 20px;
+    color: #777;
+
+}
+
+.contact_with_me h2 {
+    font-weight: 900;
+    color: #4AAAA5;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #ddd;
+}
+
+.contact_with_me img {
+    float: left;
+    width: 70px;
+    margin: auto;
+    margin-right: 5px;
+    margin-top: 15px;
+
+}
+
+
+/* ************************************************************************* FOOTER ***************************************************************************** */
+
+
+footer {
+    background-color: #666666;
+    border-top: 10px solid #4AAAA5;
+
+    height: 15vh;
+    position: relative;
+    top: 100px;
+    text-align: center;
+    clear: both;
+    color: #ccc;
+    padding-top: 38px;
+    font-size: 14px;;
+}
