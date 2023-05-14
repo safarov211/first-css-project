@@ -169,5 +169,18 @@ footer {
     clear: both;
     color: #ccc;
     padding-top: 38px;
-    font-size: 14px;;
+    font-size: 14px;
+    ;
 }
+
+
+/* ************************************************************************* PORTFOLIO ***************************************************************************** */
+
+
+.portfolio_img {
+   padding-top: 30px;
+    width: 270px;
+    float: left;
+    margin-right: 20px;
+}
+
